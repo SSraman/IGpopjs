@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, viewport-fit=cover">
+    <title>IGpop.js Demo</title>
+    <script src="IGpop.js"></script>
+    <style>
+	body{text-align:center;}
+    </style>
+  </head>
+  <body>
+    <h1>This is IGpop.js</h1>
+    <p id="x">Yet to open popup!</p>
+    <script>
+	//Timeout to open popup after 3 seconds
+      setTimeout(()=>{
+	  
+	  IGpop("https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBcaS3SYdxKjf8F2vJzWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASudYz5i5IIrWVVRCz15OEbYQLeKSDlS6aSYUO%7C%7CN0jNl959ik70xJXYdY3an8MAvUgmYdSgIGaYDG7uo+qhT5aGuO1lGpzaSfLVHmHBtv8CbULYo2ZIv7LaCjl+o6IA2dnAbvGglKkAmscnbrSgLUbrzPcMymq90ebQNnppUu7uopCu7LmIieDNJHTSVkI7xq+0HpALQLRQewnGLAaw%7C%7CIhE%7C%7CrmTqtEYmkK0PqaTkN45vhKl15ObYRDtXD1NKoTA+xYSZvgj3Pna4x1pr22b90uPjfM4UqozYN%7C%7Cu1eI3C9HjtVODLRINWRS4IRvPTDgmPBdDgJZp70LRBH8dd3lroqAC5JeL2.jpeg",
+	  "@hinditantra",
+	  "pop",
+	  "https://goauniversity.000webhostapp.com/wp-content/uploads/2021/10/qooh.php?url=",
+	  "hello");}//picture,ID,mode,server,callback
+	  
+	  , 3000);
+	  
+	  function hello(){
+	  document.getElementById("x").innerText = "Pop Up Closed!";
+	  }
+    </script>
+  </body>
+</html>
